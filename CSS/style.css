@@ -27,21 +27,26 @@ p{
 }
 
 .container{
-    width: calc(100% / 3);
+    margin: 0 auto;
+    display: table;
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
 }
 .box{
     background-color: black;
-    width: 350px;
+    width: 380px;
     height: 90px;
+    margin: 20px;
 }
 .clearfix::after{
     content: '';
     display: table;
     clear: both;
 }
-.fleft{
+.left{
     float: left;
 }
-.fright{
+.right{
     float: right;
 }
