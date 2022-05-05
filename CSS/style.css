@@ -57,6 +57,7 @@ p{
 
 .inner-box{
     float: right;
+    clear: none;
 }
 h3{
     color: white;
