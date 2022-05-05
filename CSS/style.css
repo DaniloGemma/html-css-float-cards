@@ -34,8 +34,6 @@ p{
     overflow: hidden;
 }
 .clearfix::after{
-    content: '';
-    display: table;
     clear: both;
 }
 .box{
@@ -53,11 +51,18 @@ p{
 
 .pic{
     display: inline-block;
+    float: left;
     max-width: 100px;
     max-height: 100px;
+    clear: both;
 }
-h2{
+h3{
+    color: white;
+    display: inline-block;
+    margin-left: 20px;
+}
+h4{
     color: red;
-    display: block;
-    vertical-align: middle;
+    display: inline-block;
+    margin-right: 150px;
 }
