@@ -33,20 +33,25 @@ p{
     line-height: 90px;
     overflow: hidden;
 }
-.box{
-    background-color: black;
-    width: 380px;
-    height: 90px;
-    margin: 20px;
-}
 .clearfix::after{
     content: '';
     display: table;
     clear: both;
+}
+.box{
+    background-color: black;
+    width: 390px;
+    height: 100px;
+    margin: 20px;
 }
 .left{
     float: left;
 }
 .right{
     float: right;
+}
+
+.pic{
+    max-width: 100px;
+    max-height: 100px;
 }
