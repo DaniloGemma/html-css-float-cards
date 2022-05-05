@@ -33,7 +33,6 @@ p{
     background-color: black;
     width: 350px;
     height: 90px;
-    border-color: aqua;
 }
 .clearfix::after{
     content: '';
