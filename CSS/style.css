@@ -39,6 +39,8 @@ p{
     background-color: black;
     width: calc(100% / 3 - 60);
     margin: 20px;
+    box-shadow: 2px 2px 2px 2px;
+    color: grey;
 }
 .left{
     float: left;
