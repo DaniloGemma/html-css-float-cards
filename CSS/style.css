@@ -33,11 +33,13 @@ p{
     overflow: hidden;
 }
 .clearfix::after{
+    content: "";
     clear: both;
+    display: table;
 }
 .box{
     background-color: black;
-    width: calc(100% / 3 - 60);
+    width: calc(100% / 3 - 40);
     margin: 20px;
 }
 .left{
@@ -57,7 +59,6 @@ p{
 
 .inner-box{
     float: right;
-    clear: none;
 }
 h3{
     color: white;
