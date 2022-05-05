@@ -22,3 +22,27 @@ h1{
     margin: 30px;
     font-family: 'Fredoka One', cursive;
 }
+p{
+    margin-bottom: 30px;
+}
+
+.container{
+    width: calc(100% / 3);
+}
+.box{
+    background-color: black;
+    width: 350px;
+    height: 90px;
+    border-color: aqua;
+}
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.fleft{
+    float: left;
+}
+.fright{
+    float: right;
+}
